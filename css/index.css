@@ -138,4 +138,23 @@ button:hover{
 
 @media screen and (max-width: 500px) {  /*inherits earlier code*/
 
+    nav{
+        width:60%;
+    }
+
+    .artists-container{
+        align-items: center;
+        flex-direction: column;
+        width:80%;
+        margin:0 auto;
+    }
+    
+    .artist{
+        width:50%;
+        text-align:center;
+        margin:0 auto 15% auto;
+    }
+    .artist img{
+        width:100%;
+    }
 }
