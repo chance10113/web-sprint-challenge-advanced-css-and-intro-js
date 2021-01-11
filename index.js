@@ -379,7 +379,7 @@ function lotsOfArt(array) {
         "Pierre-Auguste Renoir",
         "Francisco Goya",
         "Frida Kahlo",
-        "Albrecht Dürer"
+        "Albrecht Durer"
       );
       return newArray;
     }
@@ -387,6 +387,8 @@ function lotsOfArt(array) {
 }
 
 console.log("lotsOfArt(array): ", lotsOfArt(artists));
+
+console.log(artists[10].years.valueOf())
 
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
